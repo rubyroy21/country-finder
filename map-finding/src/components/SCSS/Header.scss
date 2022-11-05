@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 0.5px solid rgb(207, 204, 204);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 20;
+  background: white;
+  .logo {
+    width: 150px;
+    margin-left: 70px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    margin-right: 70px;
+    align-items: center;
+    font-size: 14px;
+  }
+  .btn {
+    width: 80px;
+  }
+  .login {
+    color: white;
+  }
+}
+.headerSpacing {
+  height: 60px;
+}

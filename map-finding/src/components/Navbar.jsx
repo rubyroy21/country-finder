@@ -1,15 +1,14 @@
 import React from "react";
-import { Logo } from "../assets/Logo";
 import "./SCSS/Header.scss";
 import { Button } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
-export const Stocks = () => {
+export const Navbar = () => {
   return (
     <>
       <div className="header">
         <Link to={"/"}>
-          <Logo />
+          <h1>Country Finder</h1>
         </Link>
         <div className="navbar">
           <Link to={"*"}>

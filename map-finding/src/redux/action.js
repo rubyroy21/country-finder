@@ -1,11 +1,4 @@
-import {
-  CHECK_EXPIRY,
-  GET_ALL_DATA,
-  SEARCH_DATA,
-  SET_QUOTES,
-  SORTED_ASC,
-  SORTED_QUOTES,
-} from "./actionTypes";
+import { GET_ALL_DATA, SEARCH_DATA, SET_FLAGS } from "./actionTypes";
 import { SET_ALL_DATA } from "./actionTypes";
 
 export const getAllData = (payload) => {
@@ -29,23 +22,9 @@ export const searchData = (payload) => {
   };
 };
 
-export const sortedQuotes = (payload) => {
+export const setFlags = (payload) => {
   return {
-    type: SORTED_QUOTES,
-    payload,
-  };
-};
-
-export const setQuotes = (payload) => {
-  return {
-    type: SET_QUOTES,
-    payload,
-  };
-};
-
-export const checkExpiryTime = (payload) => {
-  return {
-    type: CHECK_EXPIRY,
+    type: SET_FLAGS,
     payload,
   };
 };

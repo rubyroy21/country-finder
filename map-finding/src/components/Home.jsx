@@ -3,7 +3,6 @@ import "./SCSS/Body.scss";
 import { Button, ButtonGroup } from "@chakra-ui/react";
 import { useDispatch } from "react-redux";
 import { BsFillBackspaceFill } from "react-icons/bs";
-import { Tables } from "./Table";
 import { searchData } from "../redux/action";
 import { Link } from "react-router-dom";
 import { AllFlags } from "./AllFlags";

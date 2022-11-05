@@ -76,31 +76,6 @@
   text-align: left;
 }
 
-.card-buttons {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 50px 50px 1fr;
-  grid-template-columns: 50px 50px 1fr;
-  padding: 15px;
-}
-
-.card-button-1 {
-  display: -ms-grid;
-  display: grid;
-  align-content: center;
-  justify-content: center;
-  font-size: 15px;
-  height: 30px;
-  width: 80px;
-  color: black;
-  background-color: white;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
-  border-radius: 5px 0 0 5px;
-  opacity: 0.5;
-}
-
 .card-button-2 {
   display: -ms-grid;
   display: grid;
